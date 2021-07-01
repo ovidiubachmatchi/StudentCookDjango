@@ -22,5 +22,3 @@ urlpatterns = [
     path('', views.landing, name='landing'),
     path('admin/', admin.site.urls),
 ]
-
-urlpatterns += staticfiles_urlpatterns()

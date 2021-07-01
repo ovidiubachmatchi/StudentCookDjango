@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+    width: 55vmax;
+    height: 55vmax;
+    position: absolute;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-box p {
+    text-shadow: .1vw .1vw .1vw rgba(195, 190, 212, 0.747);
+    font-size: 1.8vmax;
+    color: rgb(15, 0, 0);
+}
+
+.text-box {
+    opacity: 0;
+}
+
+#landing {
+    width: 100%;
+    background-color: #faf8f8;
+    height: 175vmax;
+}
+
+#text-landing {
+    display: block;
+    position: absolute;
+    top: 15vmax;
+    left: 5vmax;
+    text-shadow: .1vw .1vw .1vw rgba(195, 190, 212, 0.747);
+    font-size: 1.8vmax;
+    color: rgb(15, 0, 0);
+}
+
+#image-landing {
+    top: -1vmax;
+    right: 0;
+}
+
+.green-text {
+    color: #12cc27;
+    text-shadow: 0.05vmax 0.05vmax 0.02vmax rgba(1, 44, 0, 0.747);
+}
+
+
+#button-landing {
+    position: relative;
+    top: 2vw;
+    background-color: #44c767;
+    border-radius: 5vmax;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 1.2vmax;
+    padding: 1vmax 2vmax;
+    text-decoration: none;
+    text-shadow: 0 .1vmax 0 #2f6627;
+    transition: all .2s;
+    box-shadow: 0.1vmax 0.1vmax rgba(100, 80, 80, 0.28);
+}
+
+#button-landing:hover {
+    background-color: rgb(0, 0, 0);
+    text-shadow: 0 .1vmax 0 #8d8d8d4b;
+    box-shadow: 0.2vmax 0.2vmax rgba(100, 80, 80, 0.28);
+    transition: all .2s;
+}
+
+#button-landing:active {
+    position: relative;
+    top: 1.5vmax;
+}
+
+#text-save-money {
+    position: absolute;
+    float: right;
+    top: 65vmax;
+    right: 5vmax;
+}
+
+#text-save-money h2 {
+    right: -1vmax;
+}
+
+#image-save-money {
+    top: 40vmax;
+    float: left;
+}
+
+h1 {
+    position: relative;
+    top: -1vmax;
+    color: #111;
+    font-size: 5vmax;
+    font-weight: 700;
+}
+
+h2 {
+    position: relative;
+    top: -1vmax;
+    color: #111;
+    font-size: 3.3vmax;
+    font-weight: 700;
+}
+
+
+#image-save-time {
+    top: 80vmax;
+    right: 0;
+}
+
+#text-save-time {
+    position: absolute;
+    top: 104vmax;
+    left: 5vmax;
+}
+
+#text-save-time h2 {
+    left: 6vmax;
+}
+
+#image-easy-use {
+    top: 110vmax;
+}
+
+#info-cards {
+    width: 100%;
+    order: 5;
+    color: black;
+    position: absolute;
+    top: 154vmax;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+#info-cards div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+#info-cards img {
+    display: block;
+    padding-bottom: 7.5vmax;
+    height: min-content;
+    width: 19vmax;
+}
+
+#info-cards p {
+    font-size: 3vmax;
+}
+
+#info-cards #waste img {
+    width: 30vmax;
+}
+
+body #landing .bottom-button {
+    position: absolute;
+    left: 41%;
+    top: 165vmax;
+    text-align: center;
+    font-size: 1.8vmax;
+    height: 4vmax;
+    width: 15vmax;
+}
+body #landing .bottom-button:hover {
+    font-size: 1.9vmax;
+    transition: all 0.5s;
+}
+
+body #landing .bottom-button:active {
+    top: 165.5vmax;
+}
+
+.social-links {
+	display: flex;
+    position: absolute;
+    top: 1vmax;
+    left: 1vmax;
+}
+
+.social-btn {
+	cursor: pointer;
+	height: 2.5vmax;
+	width: 2.5vmax;
+	font-family: 'Titillium Web', sans-serif;
+	color: #333;
+	border-radius: 1vmax;
+	box-shadow: 0px 0.5vmax 0.5vmax rgba(0,0,0,0.1);
+	background: white;
+	margin: 0.3vmax;
+	transition: 1s;
+}
+
+.social-btn span {
+	width: 0px;
+	overflow: hidden;
+	transition: 1s;
+	text-align: center;
+}
+
+.social-btn:hover {
+	width: 10vmax;
+}
+
+.social-btn:hover span {
+	width: max-content;
+}
+
+#linkedin svg {
+	fill: #0e76a8;
+    width: 0.9vmax;
+}
+
+#github svg {
+    width: 1.4vmax;
+	fill: #333;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
